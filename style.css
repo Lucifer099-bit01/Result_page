@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk";
+}
+
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.main{
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    display: flex;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    border: none;
+
+}
+
+.left{
+    position: relative;
+    border-radius: 20px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(135deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.left h3{
+    color: white;
+    opacity: 0.7;
+    margin-bottom: 65%;
+   
+}
+.left .circle{
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 140px;
+height: 140px;
+margin-bottom: 55px;
+border-radius: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));  
+margin: 0 auto 20px;
+color: whitesmoke;
+}
+
+#getted{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#of{
+    font-size: 10px;
+    font-weight: 400px;
+    opacity: 0.7;
+}
+
+.end h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.end p{
+    font-weight: 400;
+    color: white;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    padding: 0px 20px;
+}
+
+.right .start{
+    margin-top: 10%;
+    
+}
+
+.right .content{
+    padding: 15px 0px;
+    margin: 10px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+}
+
+.right .content .item{
+    align-items: center;
+    display: flex;
+    border-radius: 7px;
+    border: none;
+    justify-content: space-between;
+    padding: 10px;
+    width: 90%;
+    font-size: 14;
+}
+
+.item p{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.btn{
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button{
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 10px 10px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background: hsl(224, 30%, 27%);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.item1{
+    background:  hsla(0, 100%, 67%,0.1);
+    color: hsl(0, 100%, 67%);
+
+}
+
+.item2{
+    background: hsla(39, 100%, 56%,0.1);
+    color: hsl(39, 100%, 56%);
+}
+
+.item3{
+   background: hsla(166, 100%, 37%,0.1); 
+   color: hsl(166, 100%, 37%);
+}
+
+.item4{
+    background: hsla(234, 85%, 45%,0.1);
+    color: hsl(234, 85%, 45%);
+}
